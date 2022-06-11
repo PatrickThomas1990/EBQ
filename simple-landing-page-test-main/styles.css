@@ -182,7 +182,8 @@ color: #FFFFFF;
     padding-bottom: 50px;
 }
              
-@media all (max-width: 500px){
+@media screen and (max-width: 500px){
+
 
                      section {
                             background: #EBF4FF url('/Users/patrickthomas/Downloads/simple-landing-page-test-main/assets/Marketing_Tools.svg') 0% 0% no-repeat padding-box;
@@ -393,10 +394,11 @@ color: #FFFFFF;
                                     height: 106px; */
                             background: transparent url('img/logo-blue-160x160-1.png') 0% 0% no-repeat padding-box;
                             opacity: 1;
+                            padding-left: 10px;
                         }
                     
                         h1 {
-                            font-size: 50px;
+                            font-size: 25px;
                             text-align: left;
                             letter-spacing: 0px;
                             color: #000000;
@@ -405,12 +407,12 @@ color: #FFFFFF;
                         }
                     
                         p {
-                            font-size: 20px;
-                            width: 565px;
-                            text-align: left;
-                            letter-spacing: 0px;
-                            color: #000000;
-                            opacity: 1;
+                            font-size: 15px;
+                                width: 300px;
+                                text-align: left;
+                                letter-spacing: 0px;
+                                color: #000000;
+                                opacity: 1;
                         }
                     
                         section2 {
@@ -437,14 +439,14 @@ color: #FFFFFF;
                             padding-top: 50px;
                             font-size: 30px;
                             text-align: center;
-                            padding-right: 400px;
+                            /* padding-right: 400px;  */
                         }
                     
                         .grid-item-2 {
                             font-size: 30px;
                             text-align: center;
-                            padding-top: 100px;
-                            padding-left: 300px;
+                            padding-top: 175px;
+                            padding-left: 40px;
                         }
                     
                         button {
@@ -492,15 +494,14 @@ color: #FFFFFF;
                     
                         .grid-container-3 {
                             display: grid;
-                            grid-template-columns: 50% 50%;
-                            padding: 10px;
+                                grid-template-rows: auto auto;
+                                padding: 10px;
                         }
                     
                         .grid-item-left-3 {
                     
                             padding: 50px;
                             padding-top: 50px;
-                            font-size: 30px;
                             text-align: center;
                             padding-top: 10px;
                         }
@@ -579,4 +580,4 @@ color: #FFFFFF;
                             text-align: center;
                             padding-bottom: 50px;
                         }
-                    }
+}
