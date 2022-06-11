@@ -194,9 +194,11 @@ color: #FFFFFF;
                         img {
                                 background: transparent url('/Users/patrickthomas/Downloads/simple-landing-page-test-main/assets/Marketing_Tools.svg') 0% 0% no-repeat padding-box;
                                 opacity: 1;
-                                padding: 100px
-                            }
-                    
+                                top:5px;
+                            left: 16px;
+                            width: 106px;
+                            height: 106px;
+                        }
                         h1 {
                             font-size: 25px;
                             text-align: left;
@@ -398,21 +400,35 @@ color: #FFFFFF;
                         }
                     
                         h1 {
-                            font-size: 25px;
-                            text-align: left;
-                            letter-spacing: 0px;
-                            color: #000000;
-                            opacity: 1;
-                            /* width: 565px; */
+                    top: 0px;
+                        left: 67px;
+                        width: 241px;
+                        height: 68px;
+                    
+                        /* UI Properties */
+                    
+                        text-align: center;
+                        font: normal normal normal 50px/52px Open Sans;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        padding-left: 50px;
                         }
                     
                         p {
-                            font-size: 15px;
-                                width: 275px; 
-                                text-align: left;
-                                letter-spacing: 0px;
-                                color: #000000;
-                                opacity: 1;
+                        /* Layout Properties */
+                        padding-top:100px ;
+                            top: 373px;
+                            left: 21px;
+                            width: 333px;
+                            height: 194px;
+                        
+                            /* UI Properties */
+                        
+                            text-align: center;
+                            font: normal normal normal 20px/25px Open Sans;
+                            letter-spacing: 0px;
+                            color: #000000;
+                            opacity: 1;
                         }
                     
                         section2 {
@@ -429,8 +445,7 @@ color: #FFFFFF;
                         }
                     
                         .grid-item-left-2 {
-                            padding-left: 75px;
-                            padding-bottom: 50px;
+                           padding-left: 50px;
                             font-size: 30px;
                             text-align: center;
                         }
@@ -445,15 +460,15 @@ color: #FFFFFF;
                         .grid-item-2 {
                             font-size: 30px;
                             text-align: center;
-                            padding-top: 175px;
+                            /* padding-top: 175px; */
                             padding-left: 40px;
                         }
                     
                         button {
-                            top: 62px;
-                            left: 1221px;
-                            /* width: 164px; */
-                            height: 32px;
+                        top: 36px;
+                            left: 190px;
+                            width: 164px;
+                            height: 44px;
                     
                             /* UI Properties */
                             background: #2979EC 0% 0% no-repeat ;
@@ -465,12 +480,17 @@ color: #FFFFFF;
                         }
                     
                         h2 {
+                        top: 920px;
+                            left: 18px;
+                            width: 340px;
+                            height: 235px;
+                        
+                            /* UI Properties */
+                        
+                            text-align: center;
                             letter-spacing: 0px;
                             color: #000000;
                             opacity: 1;
-                            font-size: 25px;
-                            text-align: center;
-                            
                     
                         }
                     
@@ -514,12 +534,18 @@ color: #FFFFFF;
                         }
                     
                         .P1 {
-                            font-size: 15px;
-                                width: 300px;
-                                text-align: center;
-                                letter-spacing: 0px;
-                                color: #000000;
-                                opacity: 1;
+                        top: 1179px;
+                            left: 21px;
+                            width: 334px;
+                            height: 248px;
+                        
+                            /* UI Properties */
+                        
+                            text-align: center;
+                            font: normal normal normal 20px/25px Open Sans;
+                            letter-spacing: 0px;
+                            color: #000000;
+                            opacity: 1;
                         }
                     
                         section3 {
@@ -545,22 +571,43 @@ color: #FFFFFF;
                         }
                     
                         .grid-item-right-4 {
-                        font-size: 15px;
-                            text-align: center;
-                            /* width: 350px; */
-                        }
+                    top: 1626px;
+                        left: 21px;
+                        width: 333px;
+                        height: 330px;
                     
+                        /* UI Properties */
+                    
+                        text-align: center;
+                        font: normal normal normal 20px/25px Open Sans;
+                        letter-spacing: 0px;
+                        color: #000000;
+                        opacity: 1;
+                        }
+                   
                         .section5 {
                             background-color: #0A459E;
                             opacity: 1;
-                            p
+                            top: 1626px;
+                                left: 21px;
+                                width: 333px;
+                                height: 330px;
+                            
+                                /* UI Properties */
+                            
+                                text-align: center;
+                                font: normal normal normal 20px/25px Open Sans;
+                                letter-spacing: 0px;
+                                color: #000000;
+                                opacity: 1;
                         }
                     h3{
-                        text-align: center;
-                            letter-spacing: 0px;
-                            color: #000000;
-                            opacity: 1;
-                            font-size: 25px;
+                   height: 55px;
+text-align: center;
+font: normal normal bold 40px/45px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+padding-bottom: 100px;
                     }
                     .p2{
                         font-size: 20px;
